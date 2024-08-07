@@ -1,0 +1,28 @@
+.layer{
+   
+    background-color: #1aba9fdf;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 1s;
+
+}
+.imgs:hover .layer{
+    opacity: 1;
+cursor: pointer;
+}
+.layerover1{
+    background-color: rgba(0, 0, 0, 0.233);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100vh;
+    z-index: 99999999;
+}
+
+
